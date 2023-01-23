@@ -5,10 +5,10 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { captureRef } from 'react-native-view-shot';
 import { useRef } from 'react';
 
+import Button from './components/Button';
 import ImageViewer from './components/ImageViewer';
-//import ImagePicker from 'expo-image-picker';
 import CircleButton from './components/CircleButton';
-import IconButton from './components/IconBssutton';
+import IconButton from './components/IconButton';
 import EmojiPicker from './components/EmojiPicker';
 import EmojiSticker from './components/EmojiSticker';
 import EmojiList from './components/EmojiList';
